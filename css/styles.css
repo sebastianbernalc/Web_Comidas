@@ -61,3 +61,88 @@ img {
     display: block; /* Elimina el espacio adicional debajo de la imagen */
     margin: 0 auto; /* Centra horizontalmente la imagen en el contenedor */
 }
+
+footer{
+
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: #fff;
+    text-align: center;
+}
+.footer_content{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials a:hover i{
+    color: rgb(219, 155, 155);
+}
+.footer-bottom{
+    background: #000;
+    width: 97.5vw;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0.3;
+    font-family: "Nueva Fuente", Arial, Helvetica, sans-serif;
+}
+.footer_content h1{
+    font-size: 20px;
+    opacity: 0.2;
+    /* Tamaño grande del texto */
+    color: #fffcfc;
+    /* Centrar el título */
+    text-align: center;
+    font-family: "Nueva Fuente", Arial, Helvetica, sans-serif;
+}
+.footer_content p{
+    font-size: 10px;
+    opacity: 0.2;
+    /* Tamaño grande del texto */
+    color: #fffcfc;
+    /* Centrar el título */
+    text-align: center;
+    font-family: "Nueva Fuente", Arial, Helvetica, sans-serif;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 25px;
+    color: #333;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 130px;
+}
+
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    background: #333;
+}
+.navbar a:hover:before{
+    width: 100%;
+}
+.header{
+    position: static;
+    top: 0;
+    left: 0;
+    width: 97.5%;
+    padding: 15px 10px;
+    background: #da7b7b;
+}
